@@ -16,7 +16,7 @@ function CheckIcon() {
 
 export default function ProductCard({ product, onAddToCart, isSelected }) {
   return (
-    <article className="group flex h-full flex-col rounded-3xl border border-slate-100 bg-white p-6 shadow-sm hover:-translate-y-1 hover:shadow-soft">
+    <article className="group flex h-full flex-col rounded-3xl border border-slate-100 bg-white p-7 shadow-sm hover:-translate-y-1 hover:shadow-soft">
       <div className="mb-5 flex items-start justify-between gap-4">
         <div className="grid h-14 w-14 place-items-center rounded-2xl bg-brand-50 shadow-sm ring-1 ring-brand-100 transition group-hover:scale-105">
           <img src={product.icon} alt={`${product.name} icon`} className="h-8 w-8 object-contain" />
