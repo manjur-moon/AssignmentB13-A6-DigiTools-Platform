@@ -1,0 +1,51 @@
+<svg width="760" height="620" viewBox="0 0 760 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="620" rx="38" fill="url(#bg)"/>
+  <circle cx="595" cy="170" r="128" fill="#F59E0B" opacity="0.18"/>
+  <circle cx="510" cy="355" r="190" fill="#7C3AED" opacity="0.12"/>
+  <g opacity="0.95">
+    <path d="M160 327H426C457 327 481 302 481 272V206" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <path d="M214 420H538C569 420 594 395 594 364V256" stroke="white" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+    <path d="M123 234H334C360 234 381 213 381 187V128" stroke="white" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+    <path d="M300 156H650" stroke="white" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+    <path d="M262 492H611" stroke="white" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+  <g filter="url(#blur)">
+    <circle cx="482" cy="270" r="64" fill="#8B5CF6" fill-opacity="0.45"/>
+    <circle cx="594" cy="256" r="54" fill="#F97316" fill-opacity="0.42"/>
+    <circle cx="382" cy="128" r="49" fill="#22C55E" fill-opacity="0.32"/>
+  </g>
+  <g>
+    <circle cx="482" cy="270" r="62" fill="white" fill-opacity="0.22" stroke="white" stroke-width="5"/>
+    <path d="M460 287l22-22 17 17 32-36" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="594" cy="256" r="54" fill="white" fill-opacity="0.20" stroke="white" stroke-width="5"/>
+    <path d="M572 272h44M572 251h44M572 230h44" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="382" cy="128" r="50" fill="white" fill-opacity="0.2" stroke="white" stroke-width="5"/>
+    <path d="M360 145V116l21 15 22-31 21 45" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="160" cy="327" r="45" fill="white" fill-opacity="0.18" stroke="white" stroke-width="4"/>
+    <path d="M141 328h38M160 309v38" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="214" cy="420" r="36" fill="white" fill-opacity="0.18" stroke="white" stroke-width="4"/>
+    <path d="M198 420h32M214 404v32" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#handShadow)">
+    <path d="M526 599c-55-5-95-42-98-98l-6-113c-2-31 36-42 50-15l22 43V202c0-25 37-25 38 0l4 188 16-184c3-28 43-25 42 4l-7 188 30-156c5-27 44-20 40 8l-22 159 39-105c9-24 43-13 36 12l-48 171c-20 72-61 118-136 112z" fill="url(#hand)"/>
+    <path d="M492 421l-18-42c-9-20-38-15-36 7l5 92" stroke="#9A4B25" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.47" stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hand" x1="470" y1="180" x2="671" y2="617" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9C49C"/>
+      <stop offset="0.5" stop-color="#B86C3A"/>
+      <stop offset="1" stop-color="#6B321E"/>
+    </linearGradient>
+    <filter id="blur" x="270" y="26" width="424" height="368" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="handShadow" x="395" y="170" width="346" height="455" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#111827" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+</svg>

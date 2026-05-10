@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, ads, emails, and product copy in seconds with AI assistance.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["AI-powered suggestions", "SEO optimized", "Multi-language support"],
+    "icon": "/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Unlock premium templates for social media, presentations, portfolios, and marketing campaigns.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["5,000+ templates", "Fully customizable", "Commercial use"],
+    "icon": "/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access a curated creative library of photos, icons, videos, vectors, and UI mockups.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Photos and vectors", "High resolution files", "Unlimited downloads"],
+    "icon": "/assets/package.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive business tasks and connect your favorite workflow apps without code.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "Easy to use", "Works with 100+ apps"],
+    "icon": "/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create polished, ATS-friendly resumes, cover letters, and portfolios that help you stand out.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["ATS optimization", "Professional templates", "Export to PDF"],
+    "icon": "/assets/products/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Plan, write, and publish stronger social posts with captions, hooks, hashtags, and ideas.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Value",
+    "tagType": "best value",
+    "features": ["Content templates", "Caption generator", "Hashtag suggestions"],
+    "icon": "/assets/products/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Smart Cart Builder",
+    "description": "Create sleek cart experiences, checkout flows, and digital product purchase pages faster.",
+    "price": 24,
+    "period": "monthly",
+    "tag": "Featured",
+    "tagType": "featured",
+    "features": ["Cart components", "Checkout layouts", "Conversion sections"],
+    "icon": "/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 8,
+    "name": "Launch Rocket Kit",
+    "description": "Build launch plans, product pages, email swipes, and promotional assets in one toolkit.",
+    "price": 12,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Launch checklist", "Promo templates", "Growth playbooks"],
+    "icon": "/assets/rocket.png"
+  }
+]
