@@ -21,7 +21,7 @@ export default {
       },
       backgroundImage: {
         "brand-gradient": "linear-gradient(135deg, #5b2cff 0%, #8b22f7 55%, #b313ff 100%)",
-        "soft-radial": "radial-gradient(circle at top right, rgba(124,58,237,0.14), transparent 42%), radial-gradient(circle at bottom left, rgba(59,130,246,0.10), transparent 34%)"
+        "soft-radial": "radial-gradient(circle at top right, rgba(124,58,237,0.14), transparent 55%), radial-gradient(circle at bottom left, rgba(59,130,246,0.10), transparent 34%)"
       }
     }
   },
