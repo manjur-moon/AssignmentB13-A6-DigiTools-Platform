@@ -31,7 +31,7 @@ export default function Cart({ cartItems, onRemove, onCheckout }) {
 
       <div className="grid gap-4">
         {cartItems.map((item) => (
-          <div key={item.id} className="grid gap-4 rounded-3xl bg-slate-50 p-5 sm:grid-cols-[auto_1fr_auto] sm:items-center">
+          <div key={item.id} className="grid gap-4 rounded-3xl bg-slate-50 p-6 sm:grid-cols-[auto_1fr_auto] sm:items-center">
             <div className="grid h-16 w-16 place-items-center rounded-2xl bg-white shadow-sm ring-1 ring-slate-100">
               <img src={item.icon} alt={`${item.name} icon`} className="h-9 w-9 object-contain" />
             </div>
