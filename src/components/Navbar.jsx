@@ -1,44 +1,55 @@
 import { useState } from "react";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
   { label: "Products", href: "#marketplace" },
+  { label: "Features", href: "#features" },
   { label: "Pricing", href: "#pricing" },
   { label: "Testimonials", href: "#stats" },
   { label: "FAQ", href: "#footer" }
 ];
 
 function CartIcon() {
-  return <img src="/assets/products/shopping-cart.png" alt="" className="h-5 w-5 object-contain" />;
+  return <img src="/assets/products/shopping-cart.png" alt="Cart" className="h-4 w-4 object-contain" />;
 }
 
 export default function Navbar({ cartCount, onCartClick }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur-xl">
-      <nav className="section-container flex h-20 items-center justify-between">
-        <a href="#home" className="text-3xl font-black tracking-tight text-brand-600">
+    <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur-xl">
+      <nav className="section-container flex h-[76px] items-center justify-between">
+        <a href="#home" className="text-3xl font-black tracking-tight text-brand-600 sm:text-4xl">
           DigiTools
         </a>
 
-        <div className="hidden items-center gap-9 lg:flex">
+        <div className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
-            <a key={link.label} href={link.href} className="text-sm font-semibold text-slate-700 hover:text-brand-700">
+            <a key={link.label} href={link.href} className="text-sm font-semibold text-slate-800 transition hover:text-brand-600">
               {link.label}
             </a>
           ))}
         </div>
 
-        <div className="hidden items-center gap-3 sm:flex">
-          <button type="button" onClick={onCartClick} className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 hover:border-brand-200 hover:text-brand-600">
+        <div className="hidden items-center gap-4 sm:flex">
+          <button
+            type="button"
+            onClick={onCartClick}
+            className="relative inline-flex h-10 w-10 items-center justify-center rounded-full text-slate-900 transition hover:bg-brand-50 hover:text-brand-600"
+            aria-label="Open cart"
+          >
             <CartIcon />
-            Cart
-            <span className="grid h-6 min-w-6 place-items-center rounded-full bg-brand-600 px-2 text-xs text-white">
-              {cartCount}
-            </span>
+            {cartCount > 0 && (
+              <span className="absolute -right-1 -top-1 grid h-5 min-w-5 place-items-center rounded-full bg-brand-600 px-1.5 text-[10px] font-bold leading-none text-white">
+                {cartCount}
+              </span>
+            )}
           </button>
-          <a href="#marketplace" className="gradient-button px-5 py-2.5">
+
+          <a href="#login" className="text-sm font-semibold text-slate-800 transition hover:text-brand-600">
+            Login
+          </a>
+
+          <a href="#marketplace" className="rounded-full bg-gradient-to-r from-brand-600 to-fuchsia-600 px-5 py-3 text-sm font-bold text-white shadow-soft transition hover:-translate-y-0.5 hover:shadow-purple">
             Get Started
           </a>
         </div>
@@ -58,6 +69,11 @@ export default function Navbar({ cartCount, onCartClick }) {
                 {link.label}
               </a>
             ))}
+
+            <a href="#login" onClick={() => setIsOpen(false)} className="block rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-brand-50 hover:text-brand-600">
+              Login
+            </a>
+
             <button type="button" onClick={() => { onCartClick(); setIsOpen(false); }} className="flex w-full items-center justify-between rounded-2xl border border-slate-200 px-4 py-3 text-sm font-bold text-slate-700">
               <span className="inline-flex items-center gap-2">
                 <CartIcon />
