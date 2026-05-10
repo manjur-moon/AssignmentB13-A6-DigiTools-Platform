@@ -74,7 +74,7 @@ export default function App() {
         <CTASection />
       </main>
       <Footer />
-      <ToastContainer position="top-right" autoClose={1800} pauseOnHover theme="colored" />
+      <ToastContainer position="top-right" autoClose={1700} pauseOnHover theme="colored" />
     </div>
   );
 }
