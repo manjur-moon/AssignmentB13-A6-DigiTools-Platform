@@ -7,7 +7,7 @@ const stats = [
 export default function Stats() {
   return (
     <section id="stats" className="bg-brand-gradient py-10 text-white">
-      <div className="section-container grid gap-8 text-center sm:grid-cols-3 sm:divide-x sm:divide-white/25">
+      <div className="section-container grid gap-9 text-center sm:grid-cols-3 sm:divide-x sm:divide-white/25">
         {stats.map((stat) => (
           <div key={stat.label} className="px-4">
             <p className="text-4xl font-black tracking-tight sm:text-5xl">{stat.value}</p>
