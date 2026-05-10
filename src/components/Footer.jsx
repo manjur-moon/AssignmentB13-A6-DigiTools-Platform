@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
-          <p>Copyright 2024 DigiTools. All rights reserved.</p>
+          <p>Copyright 2026 DigiTools. All rights reserved.</p>
           <div className="flex flex-wrap gap-5">
             <a href="#home" className="hover:text-white">Privacy Policy</a>
             <a href="#home" className="hover:text-white">Terms of Service</a>
