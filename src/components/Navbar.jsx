@@ -24,7 +24,7 @@ export default function Navbar({ cartCount, onCartClick }) {
 
         <div className="hidden items-center gap-9 lg:flex">
           {navLinks.map((link) => (
-            <a key={link.label} href={link.href} className="text-sm font-semibold text-slate-700 hover:text-brand-600">
+            <a key={link.label} href={link.href} className="text-sm font-semibold text-slate-700 hover:text-brand-700">
               {link.label}
             </a>
           ))}
